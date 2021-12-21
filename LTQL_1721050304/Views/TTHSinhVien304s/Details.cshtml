@@ -1,0 +1,35 @@
+﻿@model LTQL_1721050304.Models.TTHSinhVien304
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TTHSinhVien304</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.LopHoc304s.TenLop)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LopHoc304s.TenLop)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HoTen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HoTen)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaSinhVien }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
