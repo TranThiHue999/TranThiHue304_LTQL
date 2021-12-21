@@ -137,9 +137,14 @@
     <Compile Include="Migrations\202112210811010_create_ble_LH.Designer.cs">
       <DependentUpon>202112210811010_create_ble_LH.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202112210815474_crete_tabl_Sv.cs" />
+    <Compile Include="Migrations\202112210815474_crete_tabl_Sv.Designer.cs">
+      <DependentUpon>202112210815474_crete_tabl_Sv.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\LopHoc304.cs" />
     <Compile Include="Models\LTQLDbContext.cs" />
+    <Compile Include="Models\TTHSinhVien304.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -203,6 +208,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202112210811010_create_ble_LH.resx">
       <DependentUpon>202112210811010_create_ble_LH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112210815474_crete_tabl_Sv.resx">
+      <DependentUpon>202112210815474_crete_tabl_Sv.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -12,6 +12,7 @@ namespace LTQL_1721050304.Models
         {
         }
         public virtual DbSet<LopHoc304> LopHoc304s { get; set; }
+        public virtual DbSet<TTHSinhVien304> TTHSinhVien304s { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
